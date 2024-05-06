@@ -30,7 +30,7 @@ export function MainNav() {
           pathname === "/about" ? "text-foreground" : "text-foreground/60"
         )}
       >
-        About
+        A propos
       </Link>
     </nav>
   );
