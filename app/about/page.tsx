@@ -47,7 +47,7 @@ export default async function AboutPage() {
           </p>
         </div>
         <p className="text-muted-foreground text-lg py-4">
-        Je me présente, Nalin Dylan, étudiant de 20 ans. Je suis en formation BTS Ciel 1ère année. C&apos;;est une formation Cybersécurité informatique et réseaux, éléctronique. <br/>
+        Je me présente, Nalin Dylan, étudiant de 20 ans. Je suis en formation BTS Ciel 1ère année. C&apos;est une formation Cybersécurité informatique et réseaux, éléctronique. <br/>
         
         Mon BTS était auparavant le BTS SNIR qui avait plus de developpement proposé dans la formation. <br/> 
         Cependant, la formation a changé et s'appelle maintenant Ciel
@@ -74,14 +74,12 @@ export default async function AboutPage() {
         fiabilité des réseaux.<br/><br/>
 
 
-
-
         Sur ce projet je devais créer des challenges auxquels des utilisateurs factices pouvaient participer. Le challenge se résoud à l&apos;aide d&apos;un flag 
         et grâce à ces flags on pouvait consulter un classement des différents utilisateurs qui participaient (ou non) aux challenges. L&apos;objectif était de
         découvrir la plateforme ainsi que de voir sa fiabilité et son accessibilité pour l&apos;utiliser dans un but pédagogique ensuite. <br/>
 
         Effectivement, il nous permettrait en deuxième année de réaliser des Capture The Flag en interne, ce qui serait interessant pour nous car 
-        on pourrait être en concurrence et 
+        on pourrait être en concurrence. Comme évoqué précédemment la concurrence et la pression nous encouragent à se donner au maximum.
         </p>
        </div>
     </div>
