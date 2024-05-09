@@ -28,7 +28,7 @@ export default async function AboutPage() {
       <div className="flex flex-col items-start gap-4 md:flex-row md:justify-between md:gap-8">
         <div className="flex-1 space-x-4">
           <h1 className="inline-block font-black text-4xl lg:text-5xl">
-            About Me
+            A propos de moi
           </h1>
         </div>
       </div>
@@ -50,7 +50,7 @@ export default async function AboutPage() {
         Je me présente, Nalin Dylan, étudiant de 20 ans. Je suis en formation BTS Ciel 1ère année. C&aposest une formation Cybersécurité informatique et réseaux, éléctronique. <br/>
         
         Mon BTS était auparavant le BTS SNIR qui avait plus de developpement proposé dans la formation. <br/> 
-        Cependant, la formation a changé et s&aposappelle maintenant Ciel
+        Cependant, la formation a changé et s'appelle maintenant Ciel
         elle est plus axée sur le réseaux et la Cybersécurité. <br/>
         Malgré toute appréhention la formation m&aposa permis d&aposaqcquérir quelques bases en développement qui serait le domaine qui me pationne le plus. <br/><br/>
         Lors de ma première année de BTS j&aposai eu la chance de participer au challenge Passe Ton Hack qui était un challenge très intéressant car plein 
