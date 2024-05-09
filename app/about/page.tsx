@@ -54,7 +54,7 @@ export default async function AboutPage() {
         elle est plus axée sur le réseaux et la Cybersécurité. <br/>
         Malgré toute appréhention la formation m&aposa permis d&aposaqcquérir quelques bases en développement qui serait le domaine qui me pationne le plus. <br/><br/>
         Lors de ma première année de BTS j&aposai eu la chance de participer au challenge Passe Ton Hack qui était un challenge très intéressant car plein 
-        de découvertes et qui m&aposa permi d&aposapprendre plein de choses sur la Cyber qui était un domaine totalement inconnu pour moi, malgré les "lacunes" 
+        de découvertes et qui m&aposa permi d&aposapprendre plein de choses sur la Cyber qui était un domaine totalement inconnu pour moi, malgré les lacunes
         que j&aposavais de base. <br/>
 
         J&aposai réussi grâce à l&aposacharnement, la motivation et de la perséverance à m&aposinvestir dans ce projet et ai permi à mon équipe
