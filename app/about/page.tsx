@@ -47,7 +47,7 @@ export default async function AboutPage() {
           </p>
         </div>
         <p className="text-muted-foreground text-lg py-4">
-        Je me présente, Nalin Dylan, étudiant de 20 ans. Je suis en formation BTS Ciel 1ère année. C&apos;est une formation Cybersécurité informatique et réseaux, éléctronique. <br/>
+        Je me présente, Nalin Dylan, étudiant de 20 ans. Je suis en formation BTS Ciel 1ère année. C &apos; est une formation Cybersécurité informatique et réseaux, éléctronique. <br/>
         
         Mon BTS était auparavant le BTS SNIR qui avait plus de developpement proposé dans la formation. <br/> 
         Cependant, la formation a changé et s'appelle maintenant Ciel
