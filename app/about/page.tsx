@@ -1,18 +1,6 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { siteConfig } from "@/config/site";
-import {
-  ColumnDef,
-  ColumnFiltersState,
-  SortingState,
-  VisibilityState,
-  flexRender,
-  getCoreRowModel,
-  getFilteredRowModel,
-  getPaginationRowModel,
-  getSortedRowModel,
-  useReactTable,
-} from "@tanstack/react-table"
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -43,7 +31,7 @@ export default async function AboutPage() {
             {siteConfig.author}
           </h2>
           <p className="text-muted-foreground text-center break-words">
-            Software Developer
+            Dev student
           </p>
         </div>
         <p className="text-muted-foreground text-lg py-4">
