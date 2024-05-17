@@ -45,7 +45,7 @@ export default async function AboutPage() {
         de découvertes et qui m&apos;a permi d&apos;apprendre plein de choses sur la Cyber qui était un domaine totalement inconnu pour moi, malgré les lacunes
         que j&apos;avais de base. <br/>
 
-        J&apos;ai réussi grâce à l&apos;acharnement, la motivation et de la perséverance à m&apos;investir dans ce projet et ai permi à mon équipe
+        J&apos;ai réussi grâce à l&apos;acharnement, la motivation et de la perséverance à m&apos;investir dans ce projet et ça a permi à mon équipe
         d&apos;obtenir 2 flags.<br/><br/>
 
 
