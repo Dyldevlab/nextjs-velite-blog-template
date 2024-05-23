@@ -44,13 +44,13 @@ export function MainNav() {
       </Link>
 
       <Link
-        href="/tag"
+        href="/tags"
         className={cn(
           "text-sm font-medium transition-colors hover:text-primary hidden sm:inline-block",
           pathname === "/tag" ? "text-foreground" : "text-foreground/60"
         )}
       >
-        Stage
+        tag
       </Link>
 
 
