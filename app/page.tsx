@@ -18,25 +18,6 @@ export default function Home() {
             Le but de ce blog est de servir de support pour le suivi 
             de mon stage de BTS CIEL (1e année)
           </p>
-          <div className="flex flex-col gap-4 justify-center sm:flex-row">
-            <Link
-              href="/blog"
-              className={cn(buttonVariants({ size: "lg" }), "w-full sm:w-fit")}
-            >
-              Voir mon blog
-            </Link>
-            <Link
-              href={siteConfig.links.github}
-              target="_blank"
-              rel="noreferrer"
-              className={cn(
-                buttonVariants({ variant: "outline", size: "lg" }),
-                "w-full sm:w-fit"
-              )}
-            >
-              GitHub
-            </Link>
-          </div>
         </div>
       </section>
       <section className="container max-w-4xl py-6 lg:py-10 flex flex-col space-y-6 mt-24">
