@@ -68,7 +68,6 @@ export default function Home({ searchParams }: BlogPageProps) {
             </li>
           ))}
         </ul>
-        <div className="grid grid-cols-12 gap-3 mt-8">
           <Card className="col-span-12 row-start-3 h-fit sm:col-span-4 sm:col-start-9 sm:row-start-1">
             <CardHeader>
               <CardTitle>Tags</CardTitle>
@@ -79,7 +78,6 @@ export default function Home({ searchParams }: BlogPageProps) {
               ))}
             </CardContent>
           </Card>
-        </div>
       </section>
 
 
