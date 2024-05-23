@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 
-export default async function AboutPage() {
+export default async function StagePage() {
   
   return (
     <div className="container max-w-6xl py-6 lg:py-10">
