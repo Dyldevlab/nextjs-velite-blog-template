@@ -33,15 +33,7 @@ export function MainNav() {
         A propos
       </Link>
       
-      <Link
-        href="/stage"
-        className={cn(
-          "text-sm font-medium transition-colors hover:text-primary hidden sm:inline-block",
-          pathname === "/stage" ? "text-foreground" : "text-foreground/60"
-        )}
-      >
-        Stage
-      </Link>
+
 
       <Link
         href="/tags"
@@ -50,7 +42,7 @@ export function MainNav() {
           pathname === "/tag" ? "text-foreground" : "text-foreground/60"
         )}
       >
-        tag
+        Semaines
       </Link>
 
 
