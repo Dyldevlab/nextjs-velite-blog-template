@@ -4,7 +4,7 @@ import { siteConfig } from "@/config/site";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Me",
+  title: "sdada Mzade",
   description: "Information about me",
 };
 
