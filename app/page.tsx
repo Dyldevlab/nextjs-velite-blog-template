@@ -68,9 +68,6 @@ export default function Home({ searchParams }: BlogPageProps) {
             </li>
           ))}
         </ul>
-      </section>
-
-      <div className="container max-w-4xl py-6 lg:py-10">
         <div className="grid grid-cols-12 gap-3 mt-8">
           <Card className="col-span-12 row-start-3 h-fit sm:col-span-4 sm:col-start-9 sm:row-start-1">
             <CardHeader>
@@ -83,7 +80,11 @@ export default function Home({ searchParams }: BlogPageProps) {
             </CardContent>
           </Card>
         </div>
-      </div>
+      </section>
+
+
+        
+      
     </>
   );
 }
