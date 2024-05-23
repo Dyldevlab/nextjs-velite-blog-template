@@ -32,6 +32,20 @@ export function MainNav() {
       >
         A propos
       </Link>
+      
+      <Link
+        href="/#"
+        className={cn(
+          "text-sm font-medium transition-colors hover:text-primary hidden sm:inline-block",
+          pathname === "/stage" ? "text-foreground" : "text-foreground/60"
+        )}
+      >
+        Stage
+      </Link>
+
+
+
+
     </nav>
   );
 }
