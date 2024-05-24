@@ -9,8 +9,7 @@
 
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
-
-    --ms-text-justify: 50 50% 50%;
+    -ms-text-justify: var(--card) : center;
 
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
