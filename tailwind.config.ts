@@ -56,7 +56,6 @@ const config = {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
-          AlignHorizontalJustifyCenter: "(var(card: any))"
         },
       },
       borderRadius: {
