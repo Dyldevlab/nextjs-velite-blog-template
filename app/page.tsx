@@ -68,8 +68,8 @@ export default function Home({ searchParams }: BlogPageProps) {
             </li>
           ))}
         </ul>
-          <Card className="col-span-12 row-start-3 h-fit sm:col-span-4 sm:col-start-9 sm:row-start-1 text-justify-center">
-            <CardHeader>
+          <Card className="col-span-12 row-start-3 h-fit sm:col-span-4 sm:col-start-9 sm:row-start-1">
+            <CardHeader className="text-center">
               <CardTitle>Voici les semaines de stage à 1FS</CardTitle>
             </CardHeader>
             <CardContent className="flex flex-wrap gap-2">
