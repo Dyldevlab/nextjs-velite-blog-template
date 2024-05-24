@@ -9,7 +9,9 @@
 
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
-    --ms-text-justify: auto;
+
+    --ms-text-justify: 50 50% 50%;
+
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
  
