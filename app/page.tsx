@@ -70,7 +70,7 @@ export default function Home({ searchParams }: BlogPageProps) {
         </ul>
           <Card className="col-span-12 row-start-3 h-fit sm:col-span-4 sm:col-start-9 sm:row-start-1">
             <CardHeader>
-              <CardTitle className="text-xs-center">Voici les semaines de stage à 1FS</CardTitle>
+              <CardTitle>Voici les semaines de stage à 1FS</CardTitle>
             </CardHeader>
             <CardContent className="flex flex-wrap gap-2">
               {sortedTags?.map((tag) => (
