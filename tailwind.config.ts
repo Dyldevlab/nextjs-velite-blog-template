@@ -1,3 +1,4 @@
+import { AlignHorizontalJustifyCenter } from "lucide-react";
 import type { Config } from "tailwindcss";
 import { fontFamily } from "tailwindcss/defaultTheme";
 
