@@ -10,7 +10,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "My blog",
+  title: "Mon blog",
   description: "This is a description",
 };
 
