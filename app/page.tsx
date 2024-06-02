@@ -48,10 +48,20 @@ export default function Home({ searchParams }: BlogPageProps) {
             Le but de ce blog est de servir de support pour le suivi 
             de mon stage de BTS CIEL (1e année)
           </p>
+          <Card className="col-span-12 row-start-3 h-fit sm:col-span-4 sm:col-start-9 sm:row-start-1">
+            <CardHeader>
+              <CardTitle>Voici les semaines de stage à 1FS</CardTitle>
+            </CardHeader>
+            <CardContent className="flex flex-wrap gap-2">
+              {sortedTags?.map((tag) => (
+                <Tag tag={tag} key={tag} count={tags[tag]} />
+              ))}
+            </CardContent>
+          </Card>
         </div>
       </section>
       
-      <section className="container max-w-4xl py-6 lg:py-6 flex flex-col space-y-6 mt-6">
+      <section className="container max-w-4xl py-6 lg:py-6 flex flex-col space-y-6">
         <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-center">
           Derniers articles
         </h2>
@@ -68,16 +78,7 @@ export default function Home({ searchParams }: BlogPageProps) {
             </li>
           ))}
         </ul>
-          <Card className="col-span-12 row-start-3 h-fit sm:col-span-4 sm:col-start-9 sm:row-start-1">
-            <CardHeader>
-              <CardTitle>Voici les semaines de stage à 1FS</CardTitle>
-            </CardHeader>
-            <CardContent className="flex flex-wrap gap-2">
-              {sortedTags?.map((tag) => (
-                <Tag tag={tag} key={tag} count={tags[tag]} />
-              ))}
-            </CardContent>
-          </Card>
+          
       </section>
 
 
