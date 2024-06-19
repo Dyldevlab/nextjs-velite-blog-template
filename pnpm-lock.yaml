@@ -59,6 +59,9 @@ importers:
       tailwindcss-animate:
         specifier: ^1.0.7
         version: 1.0.7(tailwindcss@3.4.1)
+      yarn:
+        specifier: ^1.22.22
+        version: 1.22.22
     devDependencies:
       '@tailwindcss/typography':
         specifier: ^0.5.10
@@ -2676,6 +2679,11 @@ packages:
   yaml@2.4.1:
     resolution: {integrity: sha512-pIXzoImaqmfOrL7teGUBt/T7ZDnyeGBWyXQBvOVhLkWLN37GXv8NMLK406UY6dS51JfcQHsmcW5cJ441bHg6Lg==}
     engines: {node: '>= 14'}
+    hasBin: true
+
+  yarn@1.22.22:
+    resolution: {integrity: sha512-prL3kGtyG7o9Z9Sv8IPfBNrWTDmXB4Qbes8A9rEzt6wkJV8mUvoirjU0Mp3GGAU06Y0XQyA3/2/RQFVuK7MTfg==}
+    engines: {node: '>=4.0.0'}
     hasBin: true
 
   yocto-queue@0.1.0:
@@ -5764,6 +5772,8 @@ snapshots:
   yallist@4.0.0: {}
 
   yaml@2.4.1: {}
+
+  yarn@1.22.22: {}
 
   yocto-queue@0.1.0: {}
 
